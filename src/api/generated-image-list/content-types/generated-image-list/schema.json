@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generated_image_lists",
+  "info": {
+    "singularName": "generated-image-list",
+    "pluralName": "generated-image-lists",
+    "displayName": "GeneratedImageList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "email",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
